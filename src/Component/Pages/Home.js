@@ -62,7 +62,7 @@ function Posts() {
 					{/* <h2> SERVICE TO HUMANITY</h2> */}
 
 					<br />
-					<div className="col-md-4 col-lg-4 secondcol">
+					<div className="col-md-4 col-lg-4 firstcol">
 						<h2> SERVICE TO HUMANITY</h2>
 						<p>
 							As you can see, styled-components lets you write actual CSS in your JavaScript. This means
@@ -85,6 +85,12 @@ function Posts() {
 export default Posts;
 
 const PostContainer = styled.div`
+	.container {
+		background: purple;
+		color: white;
+		font-size: 1.2rem;
+	}
+
 	.firstrow {
 		padding-top: 2rem;
 	}
@@ -104,7 +110,7 @@ const PostContainer = styled.div`
 		text-align: center;
 		padding-top: 2rem;
 		padding-bottom: 1rem;
-		color: #470b0b;
+		color: #007bff;
 	}
 
 	.thirdimg {
