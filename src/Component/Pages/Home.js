@@ -85,6 +85,9 @@ function Posts() {
 export default Posts;
 
 const PostContainer = styled.div`
+	.firstrow {
+		padding-top: 2rem;
+	}
 	p {
 		padding-top: 2rem;
 	}
@@ -107,5 +110,9 @@ const PostContainer = styled.div`
 	.thirdimg {
 		padding-top: 1rem;
 		margin-right: 0;
+	}
+
+	.thirdrow {
+		padding-bottom: 2rem;
 	}
 `;

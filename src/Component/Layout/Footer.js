@@ -12,7 +12,10 @@ function Footer() {
 							<h4 id="about">About Us</h4>
 							<ul className="list-unstyled">
 								<li>Foundation Faith Church</li>
-								<li>No: 24, Gregory Street Kosofe</li>
+								<li>
+									<span className="glyphicon glyphicon-home" aria-hidden="true" /> No: 24, Gregory
+									Street Kosofe
+								</li>
 								<li>Lagos-Nigeria.</li>
 							</ul>
 						</div>
