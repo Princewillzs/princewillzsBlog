@@ -11,11 +11,10 @@ function Footer() {
 						<div className="col-md-6 col-sm-6">
 							<h4 id="about">About Us</h4>
 							<ul className="list-unstyled">
-								<li>Foundation Faith Church</li>
 								<li>
-									<span className="glyphicon glyphicon-home" aria-hidden="true" /> No: 24, Gregory
-									Street Kosofe
+									<i class="fas fa-envelope" /> Foundation Faith Church
 								</li>
+								<li>No: 24, Gregory Street Kosofe</li>
 								<li>Lagos-Nigeria.</li>
 							</ul>
 						</div>
@@ -68,3 +67,5 @@ const FooterContainer = styled.footer`
 		color: var(--mainLightGrey);
 	}
 `;
+
+// glyphicon did not respond.
