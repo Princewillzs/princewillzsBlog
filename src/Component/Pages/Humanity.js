@@ -5,7 +5,7 @@ function Humanity() {
 	return (
 		<div>
 			<center>
-				<img className="thirdimg" src={humanity} alt="pix" width="500" height="450" />
+				<img className="thirdimg" src={humanity} alt="pix" width="100%" height="450" />
 			</center>
 		</div>
 	);

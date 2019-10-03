@@ -4,7 +4,7 @@ import piclaptop from '../img/piclaptop.jpg';
 function Secondcol() {
 	return (
 		<div>
-			<img src={piclaptop} alt="pix" width="350" height="auto" />
+			<img src={piclaptop} alt="pix" width="100%" height="auto" />
 			<p>
 				A laptop computer (also shortened to just laptop; or called a notebook computer) is a small, portable
 				personal computer (PC) with a "clamshell" form factor, typically having a thin LCD or LED computer

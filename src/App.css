@@ -30,6 +30,11 @@ img {
 	margin: auto;
 }
 
+.secondimg,
+.thirdimg {
+	margin-top: 30px;
+}
+
 /* .thirdsecond {
 	margin-left: 30px;
 } */
@@ -73,6 +78,13 @@ img {
 		padding: 40px;
 	}
 }
+
+/* @media (max-width: 520px) {
+	.secondimg .thirdimg {
+		width: 70%;
+	}
+} */
+
 .register-photo form h2 {
 	font-size: 24px;
 	line-height: 1.5;

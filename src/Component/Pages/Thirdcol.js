@@ -4,7 +4,7 @@ import picoffice from '../img/picoffice.jpg';
 function Thirdcol() {
 	return (
 		<div>
-			<img src={picoffice} alt="pix" width="350" height="auto" />
+			<img src={picoffice} alt="pix" width="100%" height="auto" />
 			<p>
 				Rules of Open-Office Etiquette. Respect another's need to work. Just because others are sitting nearby
 				doesn't mean they are available for conversation at all times. Be aware of smells. Keep noise and
