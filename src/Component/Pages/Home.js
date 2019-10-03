@@ -25,7 +25,7 @@ function Posts() {
 				</div>
 				<div className="row secondrow">
 					<h2 style={heading}>What Happens When Old Friends Meet Again After Some Years!</h2>
-					<div className="col-md-8 col-lg-8 col-sm-4 firstcol">
+					<div className="col-md-8 col-lg-8 firstcol">
 						<PicFriends />
 					</div>
 					<div className="col-md-4 col-lg-4 secondcol">
@@ -36,10 +36,10 @@ function Posts() {
 					{/* <h2> SERVICE TO HUMANITY</h2> */}
 
 					<br />
-					<div className="col-md-4 col-lg-4 firstcol">
+					<div className="col-md-4 col-lg-4 thirdfirst">
 						<Thirdrow1 />
 					</div>
-					<div className="col-md-8 col-lg-8 col-sm-4 firstcol">
+					<div className="col-md-8 col-lg-8 col-sm-4 thirdsecond">
 						<Humanity />
 					</div>
 				</div>
@@ -62,6 +62,9 @@ const PostContainer = styled.div`
 	}
 	p {
 		padding-top: 2rem;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: justify;
 	}
 
 	.secondrow h2 {
@@ -79,10 +82,11 @@ const PostContainer = styled.div`
 		color: #007bff;
 	}
 
-	.thirdimg {
-		padding-top: 1rem;
-		margin-right: 0;
-	}
+	// .thirdimg {
+	// 	padding-top: 1rem;
+	// 	margin-right: 0;
+	// 	width: auto;
+	// }
 
 	.thirdrow {
 		padding-bottom: 2rem;

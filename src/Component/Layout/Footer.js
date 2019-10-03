@@ -16,6 +16,10 @@ function Footer() {
 								</li>
 								<li>No: 24, Gregory Street Kosofe</li>
 								<li>Lagos-Nigeria.</li>
+								<br />
+								<li>
+									<i class="fas fa-phone" /> +234-803-332-2242
+								</li>
 							</ul>
 						</div>
 						<div className="col-md-6 col-sm-6">

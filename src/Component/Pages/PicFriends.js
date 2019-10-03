@@ -4,7 +4,9 @@ import picfriends from '../img/picfriends.jpg';
 function PicFriends() {
 	return (
 		<div>
-			<img src={picfriends} alt="pix" width="730" height="550" />
+			<center>
+				<img src={picfriends} alt="pix" width="500" height="450" />
+			</center>
 		</div>
 	);
 }

@@ -8,7 +8,7 @@ class Firstrow extends Component {
 
 		return (
 			<div>
-				<img src={piccar} alt="pix" width="300" height="350" />
+				<img src={piccar} alt="pix" width="350" height="auto" />
 				<p>
 					There are plenty of people who look like good friends – but are not; and therefore many of us who
 					don’t feel we should be lonely – but deep down very much are. When it comes to friendship, it is

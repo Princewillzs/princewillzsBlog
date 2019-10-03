@@ -4,7 +4,9 @@ import humanity from '../img/humanity.jpg';
 function Humanity() {
 	return (
 		<div>
-			<img className="thirdimg" src={humanity} alt="pix" width="730" height="450" />
+			<center>
+				<img className="thirdimg" src={humanity} alt="pix" width="500" height="450" />
+			</center>
 		</div>
 	);
 }
